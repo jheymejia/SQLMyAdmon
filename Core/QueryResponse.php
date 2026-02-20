@@ -7,7 +7,7 @@ namespace Core;
 /**
  * DTO inmutable que estructura el resultado de una consulta SQL.
  */
-readonly class QueryResponse
+class QueryResponse
 {
     /**
      * @param bool    $isSuccess     Indica si la consulta se ejecutó sin errores.
